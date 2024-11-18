@@ -11,9 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematics, Virginia Tech, May 2025 (expected)
+  * Thesis: Advancing Model Reduction, Data-driven Identification, and Real-time Monitoring of Structured Dynamical Systems
+  * Advised by: Dr. Mark Embree and Dr. Serkan Gugercin 
+* M.S. in Mathematics, Virginia Tech, December 2021
+  * Thesis: On the Tightness of the Balanced Truncation Error Bound with an Application to Arrowhead Systems
+  * Advised by: Dr. Mark Embree and Dr. Serkan Gugercin 
+* B.S. in Mathematics, Virginia Tech, May 2018
 
 Work experience
 ======
