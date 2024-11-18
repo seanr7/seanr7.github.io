@@ -21,20 +21,8 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2022, 2023: Givens Associate, Argonnne National Laboratory
+  * Supervised by: Dr. Swann Perarnau and Dr. Thomas Applencourt
   
 The full version of my CV can be downloaded <a target="blank_"
-href="../files/cv/SJReiter_CV_2024.pdf">here</a>
+href="../files/SJReiter_CV_2024.pdf">here</a>.
