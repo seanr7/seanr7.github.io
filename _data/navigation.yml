@@ -8,14 +8,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research Projects"
-    url: /projects/
+#  - title: "Research Projects"
+#    url: /projects/
 
-  - title: "Conference Contributions"
-    url: /talks/    
+#  - title: "Conference Contributions"
+#    url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+#  - title: "Teaching"
+#    url: /teaching/    
     
   - title: "CV"
     url: /cv/
