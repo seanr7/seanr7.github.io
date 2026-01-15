@@ -23,7 +23,7 @@ repository               : "seanr7/seanr7.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.png"
   name             : "Sean Reiter"
   pronouns         : # example: "she/her"  
   bio              : "Courant Instructor, Courant Institute of Mathematical Sciences, New York University, New York, USA"
