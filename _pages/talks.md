@@ -43,22 +43,22 @@ author_profile: true
 
 ## <a name="oral"></a>Conference and Oral Presentations ##
 
-- Optimal-\(\mathcal{H}_2\)) approximation of linear quadratic output systems by multivariate rational interpolation.
+- Optimal-\\(\mathcal{H}_2\\) approximation of linear quadratic output systems by multivariate rational interpolation.
   *Joint Mathematics Meeting 2026*, Jan 4–7, 2026, Washington, D.C.
 
-- \(\mathcal{H}_2\))-optimal model reduction by multivariate rational interpolation.
+- \\(\mathcal{H}_2\\)-optimal model reduction by multivariate rational interpolation.
   *Challenges, Opportunities, and New Horizons in Rational Approximation*, Apr 6–11, 2025, Banff, Canada.
 
 - Interpolatory model reduction of dynamical systems with root mean squared error.
   *MATHMOD 2025, 11th Vienna International Conference on Mathematical Modeling*, Feb 19–21, 2025, Vienna, Austria.
 
-- Interpolatory \(\mathcal{H}_2\)) optimal model reduction of linear systems with quadratic outputs.
+- Interpolatory \\(\mathcal{H}_2\\) optimal model reduction of linear systems with quadratic outputs.
   *Model Reduction and Surrogate Modeling (MORe24)*, Sep 9–13, 2024, La Jolla, CA, United States.
 
 - Generalizations of data-driven balancing: what to sample for different Riccati equation-based variants.
   *SIAM Conference on Applied Linear Algebra*, May 13–17, 2024, Paris, France.
 
-- \(\mathcal{H}_2\))-optimal model reduction of linear systems with quadratic outputs.
+- \\(\mathcal{H}_2\\)-optimal model reduction of linear systems with quadratic outputs.
   *Young Mathematicians in Model Order Reduction (YMMOR) Conference 2024*, Mar 4–8, 2024, Stuttgart, Germany.
 
 - Generalizations of data-driven balancing: What do you need to sample for different balancing-based reduced models?
@@ -67,7 +67,7 @@ author_profile: true
 - Interpolatory Matrix Approximations for Pilot Bus Selection and Disturbance Detection.
   *2023 Algorithms for Threat Detection PI Workshop*, Oct 10–12, 2023, Fairfax, VA, United States.
 
-- Interpolation-based \(\mathcal{H}_2\))-optimal model reduction of systems with quadratic outputs.
+- Interpolation-based \\(\mathcal{H}_2\\)-optimal model reduction of systems with quadratic outputs.
   *Nonlinear Model Reduction for Control*, May 22–26, 2023, Blacksburg, VA, United States.
 
 - Structure-preserving Extensions of the QuadBT Framework.
