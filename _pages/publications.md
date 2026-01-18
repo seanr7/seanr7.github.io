@@ -95,7 +95,7 @@ and <a target="blank_" href="{{ author.orcid }}">ORCID</a> profiles.
 ## <a name="theses"></a>Theses ##
 
 - Reiter, S. J. (2025).
-  *Dimension Reduction in Structured Dynamical Systems: Optimal-(\\mathcal{H}_2\\) Approximation, Data-Driven Balancing, and Real-Time Monitoring.*
+  *Dimension Reduction in Structured Dynamical Systems: Optimal-\\(\mathcal{H}_2\\) Approximation, Data-Driven Balancing, and Real-Time Monitoring.*
   Ph.D. dissertation, Virginia Polytechnic Institute and State University.
   URL: [https://hdl.handle.net/10919/134223](https://hdl.handle.net/10919/134223)
 
