@@ -28,6 +28,12 @@ author_profile: true
 
 ## <a name="organization"></a>Organizational Work ##
 
+- Minisymposium organizer, “Numerical Linear Algebra Tools for Model Order Reduction,” *ILAS 2026, 27th Conference of the International Linear Algebra Society*, Blacksburg, VA, USA.
+  Co-organizers: Mattia Manucci (Karlsruhe Institute of Technology)
+
+- Local organizing committee, *Young Mathematics in Model Order Reduction 2026 (YMMOR 2026)*, Blacksburg, VA, USA.
+  Co-organizers: Michael S. Ackermann (Virginia Tech), Sam Bender (Virginia Tech), Jordan Jackson (Virginia Tech), Reetish Padhi (Virginia Tech), Cankat Tilki (Virginia Tech).
+
 - Organizational committee member, *Young Mathematics in Model Order Reduction (YMMOR)*.
 
 - Minisymposium organizer, “Recent Advances in Model Order Reduction and Data-driven Modeling,” *MATHMOD 2025, 11th Vienna International Conference on Mathematical Modeling*, Vienna, Austria.
