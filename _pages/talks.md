@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <p style="margin-top:0.5em; margin-bottom:0.5em">
-  <a href="#organization">Organizational Work (2)</a>
+  <a href="#organization">Organizational Work (4)</a>
 </p>
 <p style="margin-top:0.5em; margin-bottom:0.5em">
   <a href="#oral">Conference and Oral Presentations (11)</a>
