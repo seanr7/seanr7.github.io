@@ -37,10 +37,10 @@ and <a target="blank_" href="{{ author.orcid }}">ORCID</a> profiles.
 
 ---
 
-## <a name="submitted"></a>Submitted Articles (arXiv preprints) ##
+## <a name="submitted"></a>Submitted Articles ##
 
 - Reiter, S., Gosea, I. V., Pontes Duff, I., & Gugercin, S. (2025).
-  *$\mathcal{H}_2-optimal model reduction of linear quadratic-output systems by multivariate rational interpolation.*
+  *\(\mathcal{H}_2\)-optimal model reduction of linear quadratic-output systems by multivariate rational interpolation.*
   arXiv:2505.03057.
   DOI: [10.48550/arXiv.2505.03057](https://doi.org/10.48550/arXiv.2505.03057)
 
