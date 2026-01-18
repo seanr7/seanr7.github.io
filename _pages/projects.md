@@ -15,9 +15,9 @@ author_profile: true
 * **Model-Order Reduction**:
   System-Theoretic Methods for the Approximation of Large-Scale Dynamical Systems,
   Projection-Based Methods,
-  Optimal-$\mathcal{H}_2$ Approximation by Methods of Rational Interpolation
+  Optimal-\\(\mathcal{H}_2\\) Approximation by Methods of Rational Interpolation
 * **Numerical Linear Algebra**:
   Low-Rank Matrix Decompositions,
-  Best-$\mathcal{L}_2$ Rational Approximation
+  Best-\\(\mathcal{L}_2\\) Rational Approximation
   
 ---
