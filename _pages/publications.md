@@ -55,7 +55,7 @@ and <a target="blank_" href="{{ author.orcid }}">ORCID</a> profiles.
   DOI: [10.48550/arXiv.2510.20116](https://doi.org/10.48550/arXiv.2510.20116)
 
 - Ackermann, M. S., Reiter, S., & Trefethen, L. N. (2025).
-  *$L_2$ and $L_\infty$ rational approximation.*
+  *\(L_2\) and \(L_\infty\) rational approximation.*
   arXiv:2512.23357.
   DOI: [10.48550/arXiv.2512.23357](https://doi.org/10.48550/arXiv.2512.23357)
 
@@ -70,7 +70,7 @@ and <a target="blank_" href="{{ author.orcid }}">ORCID</a> profiles.
   (arXiv version: 2312.12561.)
 
 - Reiter, S., Pontes Duff, I., Gosea, I. V., & Gugercin, S. (2025).
-  *$H_2$ Optimal Model Reduction of Linear Systems with Multiple Quadratic Outputs.*
+  *\(H_2\) Optimal Model Reduction of Linear Systems with Multiple Quadratic Outputs.*
   **IEEE Transactions on Automatic Control** (published online, 2025).
   DOI: [10.1109/TAC.2025.3636441](https://doi.org/10.1109/TAC.2025.3636441)
   (arXiv version: 2405.05951.)
@@ -95,7 +95,7 @@ and <a target="blank_" href="{{ author.orcid }}">ORCID</a> profiles.
 ## <a name="theses"></a>Theses ##
 
 - Reiter, S. J. (2025).
-  *Dimension Reduction in Structured Dynamical Systems: Optimal-$\mathcal{H}_2$ Approximation, Data-Driven Balancing, and Real-Time Monitoring.*
+  *Dimension Reduction in Structured Dynamical Systems: Optimal-(\mathcal{H}_2\) Approximation, Data-Driven Balancing, and Real-Time Monitoring.*
   Ph.D. dissertation, Virginia Polytechnic Institute and State University.
   URL: [https://hdl.handle.net/10919/134223](https://hdl.handle.net/10919/134223)
 
