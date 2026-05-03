@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/project.css">
   <link rel="stylesheet" href="css/experience_table.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left:'$',right:'$',display:false}]});"></script>
 </head>
 <body>
 <div class="centered-site">
@@ -21,10 +25,13 @@
         Courant Institute of Mathematical Sciences<br>
         New York University
       </p>
-      <p class="interests">
-        <strong>Research Interests:</strong> Model order reduction, data-driven reduced order modeling,
-        data assimilation, rational approximation
-      </p>
+      <p class="interests-heading"><strong>Research Interests</strong></p>
+      <ul class="interests-list">
+        <li><strong>Model-Order Reduction:</strong> Approximation of large-scale dynamical systems, structure-preserving methods, optimal model-order reduction</li>
+        <li><strong>Data-Driven Reduced-Order Modeling:</strong> System identification, learning structured representations of dynamical systems from frequency- and time-domain data</li>
+        <li><strong>Numerical Linear Algebra:</strong> Rational approximation, low-rank matrix decompositions, optimization</li>
+        <li><strong>Scientific Machine Learning:</strong> One-step maps for data assimilation in stochastic differential equations, learning the analysis operator in Bayesian filtering</li>
+      </ul>
       <div class="link-buttons">
         <a href="mailto:s.reiter@nyu.edu">Email</a>
         <a href="ReiterSean_CV.pdf">CV</a>
@@ -45,6 +52,13 @@
       Sciences, New York University. There, I am working in the research group of
       <a href="https://cims.nyu.edu/~pehersto/" target="_blank" rel="noopener">Dr. Benjamin Peherstorfer</a>
       on problems in model reduction, data assimilation, and scientific machine learning.
+    </p>
+    <p>
+      Prior to moving to New York University, I obtained my doctoral degree in mathematics from
+      Virginia Tech in Blacksburg, Virginia, under the supervision of
+      <a href="https://math.vt.edu/people/faculty/embree-mark.html" target="_blank" rel="noopener">Dr. Mark Embree</a>
+      and
+      <a href="https://math.vt.edu/people/faculty/gugercin-serkan.html" target="_blank" rel="noopener">Dr. Serkan Gugercin</a>.
     </p>
   </section>
 
@@ -96,6 +110,7 @@
             <span class="role">Ph.D. in Mathematics</span>
             <span class="institution">Virginia Tech</span>
             <span class="detail">Advised by Dr. Mark Embree and Dr. Serkan Gugercin</span>
+            <span class="detail">Dissertation: <em>Dimension Reduction in Structured Dynamical Systems: Optimal-$H_2$ Approximation, Data-Driven Balancing, and Real-Time Monitoring</em></span>
           </td>
           <td class="col-date">
             <span class="location">Blacksburg, VA</span>
@@ -207,7 +222,7 @@
         <li>
           <span class="pub-num">[J2]</span>
           Reiter, S., Pontes Duff, I., Gosea, I. V., and Gugercin, S. (2025).
-          H<sub>2</sub> Optimal Model Reduction of Linear Systems with Multiple Quadratic Outputs.
+          $H_2$ Optimal Model Reduction of Linear Systems with Multiple Quadratic Outputs.
           <em>IEEE Transactions on Automatic Control</em> (published online, 2025).
           <a class="pub-doi" href="https://doi.org/10.1109/TAC.2025.3636441" target="_blank" rel="noopener">10.1109/TAC.2025.3636441</a>
         </li>
@@ -242,7 +257,7 @@
         <li>
           <span class="pub-num">[P4]</span>
           Reiter, S., Gosea, I. V., Pontes Duff, I., and Gugercin, S. (2025).
-          H<sub>2</sub>-optimal model reduction of linear quadratic-output systems by multivariate rational interpolation.
+          $H_2$-optimal model reduction of linear quadratic-output systems by multivariate rational interpolation.
           <em>arXiv preprint arXiv:2505.03057.</em>
           <a class="pub-doi" href="https://arxiv.org/abs/2505.03057" target="_blank" rel="noopener">10.48550/arXiv.2505.03057</a>
         </li>
@@ -263,7 +278,7 @@
         <li>
           <span class="pub-num">[P1]</span>
           Ackermann, M. S., Reiter, S., and Trefethen, L. N. (2025).
-          L2 and L&#x221E; rational approximation.
+          $L_2$ and $L_\infty$ rational approximation.
           <em>arXiv preprint arXiv:2512.23357.</em>
           <a class="pub-doi" href="https://arxiv.org/abs/2512.23357" target="_blank" rel="noopener">10.48550/arXiv.2512.23357</a>
         </li>
@@ -277,7 +292,7 @@
         <li>
           <span class="pub-num">[D]</span>
           Reiter, S. J. (2025).
-          <em>Dimension Reduction in Structured Dynamical Systems: Optimal-H2 Approximation,
+          <em>Dimension Reduction in Structured Dynamical Systems: Optimal-$H_2$ Approximation,
           Data-Driven Balancing, and Real-Time Monitoring.</em>
           Ph.D. dissertation, Virginia Polytechnic Institute and State University.
           <a class="pub-doi" href="https://hdl.handle.net/10919/134223" target="_blank" rel="noopener">hdl:10919/134223</a>
