@@ -210,6 +210,78 @@ section p {
   display: none;
 }
 
+/* ─── Publication action pills + BibTeX ─── */
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.pub-btn {
+  display: inline-block;
+  padding: 2px 11px;
+  border: 1px solid var(--color-link);
+  border-radius: 4px;
+  background: none;
+  color: var(--color-link);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 0.74rem;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pub-btn:hover {
+  background: var(--color-link);
+  color: #fff;
+  text-decoration: none;
+}
+
+.pub-btn[aria-expanded="true"] {
+  background: var(--color-link);
+  color: #fff;
+}
+
+.bibtex-block {
+  margin-top: 8px;
+}
+
+.bibtex-block pre {
+  background: var(--color-bg-alt);
+  border: 1px solid #e2e3e3;
+  border-radius: 5px;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #222;
+  white-space: pre;
+}
+
+.bibtex-copy {
+  margin-top: 6px;
+  padding: 2px 11px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: none;
+  color: #666;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.bibtex-copy:hover {
+  color: var(--color-link);
+  border-color: var(--color-link);
+}
+
 /* ─── Projects placeholder ─── */
 .projects-placeholder {
   border: 1px dashed #ccc;
