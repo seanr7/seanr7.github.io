@@ -1,0 +1,446 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Sean}{Reiter}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{New York, NY, 10012}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(631) 626-8390}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{s.reiter@nyu.edu}                               % optional, remove / comment the line if not wanted
+% \homepage{github.com/seanr7}  
+\homepage{seanr7.github.io}
+% optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+% \makeatletter
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% \makeatother
+% \renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+% \renewcommand*{\bibliographyitemlabel}{}
+% bibliography with mutiple entries
+% \usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+% \small{Objective: Graduate student interested in applied mathematics seeking a full-time Summer internship beginning in May of 2022.}
+\section{Education}
+\vspace{5pt}
+
+%\subsection{Academic Qualifications}
+
+%\vspace{5pt}
+
+\begin{itemize}
+\item{\cventry{Expected  May 2025}{Ph.D. in Mathematics}{Virginia Tech}{Blacksburg, VA}{\textit{Advised by Dr. Mark Embree and Dr. Serkan Gugercin}}{\textit{GPA: 3.81/4.00}}}
+\vspace{3pt}
+
+\item{\cventry{December 2021}{M.S. in Mathematics}{Virginia Tech}{Blacksburg, VA}{{\textit{Advised by Dr. Mark Embree and Dr. Serkan Gugercin}}}
+{\textit{Thesis: On the Tightness of the Balanced Truncation Error Bound with an Application to Arrowhead Systems\\}
+\textit{GPA: 3.81/4.00}}}
+\vspace{3pt}
+
+\item{\cventry{May 2018}{B.S. in Mathematics, 'In Honors,' Minor in Chemistry}{Virginia Tech}{Blacksburg, VA}{\textit{Summa Cum Laude}}{\textit{GPA: 3.86/4.00}}}
+\end{itemize}
+
+
+\section{Professional Experience}
+\vspace{5pt}
+\begin{itemize}  
+    \item{\cventry{August 2025 - Present}{Courant Institute of Mathematical Sciences, New York University}{Courant Instructor}{New York, NY}{}{}}
+    \vspace{3pt}
+    \item{\cventry{January 2019 - May 2025}{Department of Mathematics, Virginia Tech}{Graduate Research Assistant}{Blacksburg, VA}{}{}}
+    \vspace{3pt}
+    \item{\cventry{June - August 2022, 2023}{MCS Division, Argonne National Laboratory}{Givens Associate}{Lemont, IL}{}{}}
+    \vspace{3pt}
+\end{itemize}
+
+\section{Research Interests}
+\vspace{5pt}
+\begin{itemize}
+    \item Model-order reduction of large-scale dynamical systems, optimal model-order reduction, structure-preserving model-order reduction, data-driven methods for reduced-order modeling and system realization, rational approximation, low-rank matrix decompositions, scientific machine learning, data assimilation, filtering
+    % Optimal model reduction of dynamical systems, data-driven reduced-order modeling, structure-preserving model reduction, low-rank matrix decompositions, real-time monitoring for electrical power systems, approximation theory, numerical linear algebra, scientific computing,
+    % high-performance computing for quantum chemistry.
+\end{itemize}
+
+\section{Publications}
+\vspace{5pt}
+
+\subsection{Journal Articles}
+\vspace{5pt}
+\begin{itemize}
+    % (NEW) SISC paper moved here from "Submitted"
+    \item Reiter, S., and Werner, S. W. R. (2026). Data-driven balanced truncation for second-order systems with generalized proportional damping. \textit{SIAM Journal on Scientific Computing}, 48(3):C526--C552. \url{10.1137/25M1768217}.
+    \vspace{2pt}
+
+    % (UPDATED) IEEE TAC paper now in print with full bibliographic details
+    \item Reiter, S., Pontes Duff, I., Gosea, I. V., and Gugercin, S. (2026). $\mathcal{H}_2$ Optimal Model Reduction of Linear Systems with Multiple Quadratic Outputs. \textit{IEEE Transactions on Automatic Control}, 71(5):3168--3183. \url{10.1109/TAC.2025.3636441}.
+    \vspace{2pt}
+
+    % (NEW) Automatica paper moved here from "Submitted"
+    \item Reiter, S., Gosea, I. V., and Gugercin, S. (2025). Generalizations of data-driven balancing: What to sample for different balancing-based reduced models. \textit{Automatica}, 182:112518. \url{10.1016/j.automatica.2025.112518}. % <-- CHANGED
+    \vspace{2pt}
+
+    % (UPDATED) Add DOI + match website bibliographic details
+    \item Reiter, S., Damm, T., Embree, M., and Gugercin, S. (2024). On the balanced truncation error
+        bound and sign parameters from arrowhead realizations. \textit{Advances in Computational Mathematics}, 50:10. \url{10.1007/s10444-024-10105-y}. % <-- CHANGED
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Conference Proceedings}
+\vspace{5pt}
+\begin{itemize}
+    \item Reiter, S., and Werner, S. W. R. (2025). Interpolatory model reduction of dynamical systems with root mean squared error. \textit{IFAC-PapersOnLine}, 59(1):385--390. \url{10.1016/j.ifacol.2025.03.066}. % <-- CHANGED
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Accepted}
+\vspace{5pt}
+\begin{itemize}
+    % (NEW) IEEE TPS paper moved here from "Submitted"
+    \item Reiter, S., Embree, M., Gugercin, S., and Kekatos, V. (2026). Interpolatory Approximations of PMU Data: Dimension Reduction and Pilot Selection. \textit{IEEE Transactions on Power Systems} (accepted). \url{10.1109/TPWRS.2026.3707037}.
+    \vspace{2pt}
+
+    % (NEW) SIMAX paper moved here from "Submitted" (no DOI assigned yet)
+    \item Reiter, S., Gosea, I. V., Pontes Duff, I., and Gugercin, S. $\mathcal{H}_2$-optimal model reduction of linear quadratic-output systems by multivariate rational interpolation. \textit{SIAM Journal on Matrix Analysis and Applications} (accepted). \textit{arXiv preprint arXiv:2505.03057}. \url{10.48550/arXiv.2505.03057}.
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Submitted (arXiv preprints)}
+\vspace{5pt}
+\begin{itemize}
+    % (NEW) preprint
+    \item Reiter, S., and Werner, S. W. R. (2026). Symmetric Hermite quadrature-based balanced truncation for learning linear dynamical systems from derivative data. \textit{arXiv preprint arXiv:2606.00298}. \url{10.48550/arXiv.2606.00298}.
+    \vspace{2pt}
+
+    \item Ackermann, M. S., Reiter, S., and Trefethen, L. N. (2025). L2 and Linfinity rational approximation. \textit{arXiv preprint arXiv:2512.23357}. \url{10.48550/arXiv.2512.23357}. % <-- CHANGED
+\end{itemize}
+
+\vspace{5pt}
+\subsection{Theses}
+\vspace{5pt}
+\begin{itemize}
+    \item Reiter, S. J. (2025). \textit{Dimension Reduction in Structured Dynamical Systems: Optimal-H2 Approximation, Data-Driven Balancing, and Real-Time Monitoring}. Ph.D. dissertation, Virginia Polytechnic Institute and State University. \url{hdl:10919/134223}. % <-- CHANGED
+
+    \item Reiter, S. J. (2022). \textit{On the Tightness of the Balanced Truncation Error Bound with an Application to Arrowhead Systems}. M.S. thesis, Virginia Polytechnic Institute and State University. \url{hdl:10919/107999}. % <-- CHANGED
+\end{itemize}
+
+% ------------------------------------------------------------------
+% \subsection{Submitted} % <-- REMOVED
+% \vspace{5pt} % <-- REMOVED
+% \begin{itemize} % <-- REMOVED
+%     \item Reiter, S., Gosea, I. V., and Gugercin, S. (2024). Generalizations of data-driven balancing: what
+%     to sample for different balancing-based reduced models. \textit{arXiv preprint arXiv:2312.12561} % <-- REMOVED
+%     \vspace{2pt} % <-- REMOVED
+%     \item Reiter, S., Werner, S. W. R., (2024). Interpolatory model-order reduction of large-scale dynamical systems with root mean squared error measures.
+%     \textit{arXiv preprint arXiv:2403.08894} % <-- REMOVED
+%     \vspace{2pt} % <-- REMOVED
+%     \item Reiter, S., Pontes Duff, I., Gosea, I. V., and Gugercin, S. (2024). $\mathcal{H}_2$ optimal model reduction of linear systems with multiple quadratic outputs. \textit{arXiv preprint arXiv:2405.05951} % <-- REMOVED
+% \end{itemize} % <-- REMOVED
+% \vspace{5pt} % <-- REMOVED
+%
+% \subsection{In Preparation} % <-- REMOVED
+% \vspace{5pt} % <-- REMOVED
+% \begin{itemize} % <-- REMOVED
+%     \item Reiter, S., Gosea, I. V., Pontes Duff, I., and Gugercin, S. (2024). $\mathcal{H}_2$ optimal model reduction of linear quadratic output systems by tangential interpolation. % <-- REMOVED
+%     \vspace{2pt} % <-- REMOVED
+%     \item Reiter, S., Embree, M., Gugercin, S., and Kekatos, V., (2024). Interpolatory Approximations for PMU Data: Dimension Reduction, Pilot Bus Selection, and Event Detection. % <-- REMOVED
+%     \vspace{2pt} % <-- REMOVED
+%     \item Reiter, S., Werner, S. W. R., (2024). Data-driven balanced truncation for second-order systems with generalized proportional damping. % <-- REMOVED
+% \end{itemize} % <-- REMOVED
+% ------------------------------------------------------------------
+
+
+
+\section{Conference Contributions}
+\vspace{5pt}
+\subsection{Conference and Oral Presentations}
+\vspace{5pt}
+\begin{itemize}
+    \item The Loewner Framework Beyond Linear Outputs. \textit{Young Mathematicians in Model Order Reduction (YMMOR) Conference 2026}, May 26 - 29, 2026, Blacksburg, VA, United States
+    \vspace{2pt}
+    \item The Loewner Framework Beyond Linear Outputs. \textit{27th Conference of the International Linear Algebra Society, ILAS 2026}, May 18 - 22, 2026, Blacksburg, VA, United States
+    \vspace{2pt}
+    \item Optimal-$\mathcal{H}_2$ approximation of linear quadratic output systems by multivariate rational interpolation. \textit{Joint Mathematics Meeting 2026}, Jan 4 - 7, 2026, Washington, D.C.
+    \vspace{2pt}
+    \item $\mathcal{H}_2$-optimal model reduction by multivariate rational interpolation. \textit{Challenges, Opportunities, and New Horizons in Rational Approximation}, Apr 6 - 11, 2025, Banff, Canada
+    \vspace{2pt}
+    \item Interpolatory model reduction of dynamical systems with root mean squared error. \textit{MATHMOD 2025, 11th Vienna International Conference on Mathematical Modeling}, Feb 19 - 21, 2025 Vienna, Austria
+    \vspace{2pt}
+    \item Interpolatory $\mathcal{H}_2$ optimal model reduction of linear systems with quadratic outputs. \textit{Model Reduction and Surrogate Modeling (MORe24)}, Sep 9 - 13 , 2024, La Jolla, CA, United States
+    \vspace{2pt}
+    \item Generalizations of data-driven balancing: what to sample for different Riccati equation-based variants. \textit{SIAM Conference on Applied Linear Algebra}, May 13 - 17, 2024, Paris, France
+    \vspace{2pt}
+    \item $\mathcal{H}_2$-optimal model reduction of linear systems with quadratic outputs. \textit{Young Mathematicians in Model Order Reduction (YMMOR) Conference 2024}, March 4 - 8, 2024, Stuttgart, Germany
+% \end{itemize}
+% \vspace{5pt}
+% \subsection{Other Conference and Workshop Presentations}
+% \vspace{5pt}
+% \begin{itemize} 
+    \vspace{2pt}
+    \item Generalizations of data-driven balancing: What do you need to sample for different balancing-based reduced models? \textit{Mid-Atlantic Numerical Analysis Day}, November 10, 2023, Philadelphia, PA, United States
+    \vspace{2pt}
+    \item Interpolatory Matrix Approximations for Pilot Bus Selection and Disturbance Detection. \textit{2023 Algorithms for Threat Detection PI Workshop}, October 10 - 12, 2023, Fairfax, VA, United States
+    \vspace{2pt}
+    \item Interpolation-based $\mathcal{H}_2$-optimal model reduction of systems with quadratic outputs. \textit{Nonlinear Model Reduction for Control}, May 22 - 26, 2023, Blacksburg, VA, United States
+    \vspace{2pt}
+    \item Structure-preserving Extensions of the QuadBT Framework. \textit{SIAM Southeastern Atlantic Section Annual Meeting}, March 25 - 26, 2023, Blacksburg, VA, United States
+    \vspace{2pt}
+    \item Power System Event Localization via DEIM. \textit{SIAM Conference on Computational Science and Engineering}, February 26 - March 3, 2023, Amsterdam, The Netherlands
+    \vspace{2pt}
+\end{itemize}
+
+% \vspace{5pt}
+% \subsection{Other Oral Presentations}
+% \vspace{5pt}
+% \begin{itemize} 
+%     \item Generalizations of data-driven balancing: What do you need to sample for different balancing-based reduced models?, \textit{Mid-Atlantic Numerical Analysis Day}, November 10, 2023, Philadelphia, PA, United States
+%     \vspace{2pt}
+%     \item Interpolatory Matrix Approximations for Pilot Bus Selection and Disturbance Detection, \textit{2023 Algorithms for Threat Detection PI Workshop}, October 10 - 12, 2023, Fairfax, VA, United States
+%         \vspace{2pt}
+%     \item Interpolation-based $\mathcal{H}_2$-optimal model reduction of systems with quadratic outputs, \textit{Nonlinear Model Reduction for Control}, May 22 - 26, 2023, Blacksburg, VA, United States
+%         \vspace{2pt}
+%     \item Structure-preserving Extensions of the QuadBT Framework, \textit{SIAM Southeastern Atlantic Section Annual Meeting}, March 25 - 26, 2023, Blacksburg, VA, United States
+%     \item Power System Event Localization via DEIM, \textit{SIAM Conference on Computational Science and Engineering}, February 26 - March 3, 2023, Amsterdam, The Netherlands
+%     \vspace{2pt}
+% \end{itemize}
+
+\vspace{5pt}
+\subsection{Poster Presentations}
+\vspace{5pt}
+\begin{itemize}
+    \item Interpolatory Approximations for PMU Data: Dimension Reduction, Pilot Bus Selection, and Event Detection. \textit{2024 AMPS/ATD PI Workshop,} October 7 - 9, 2024, Alexandria, VA, United States
+        \vspace{2pt}
+    \item On Balanced Truncation Error Bound and Sign Parameters. \textit{Model Reduction and Surrogate Modeling (MORE)}, September 19 - 23, 2022, Berlin, Germany
+        \vspace{2pt}
+    \item On the Tightness of the Balanced Truncation Error Bound, with an Application to Arrowhead Systems. \textit{Southeast Control Conference}, November 29 - 30, 2021, Blacksburg, VA, United States
+        \vspace{2pt}
+    \item A Tight Balanced Truncation Error Bound for a Certain Class of SISO Systems. \textit{SIAM Conference on Computational Science and Engineering}, March 1 - 5, 2021, Virtual
+    % \item S. Reiter, ``Power System Event Location via DEIM,'' Virginia Tech Mathematics Department Applied Numerical Analysis Seminar, Blacksburg, VA, United States, November 15, 2021 (2021), Oral Presentation.
+    % \item S. Reiter, M. Embree, and S. Gugercin, ``A Tight Balanced Truncation Error Bound for a Certain Class of SISO Systems,'' SIAM Conference on Computational Science and Engineering (CSE), Virtual, March 1-5, 2021 (2021), Poster Presentation. 
+\end{itemize}
+
+\section{Teaching Experience}
+
+\vspace{5pt}
+
+
+\begin{itemize}
+\item{\cventry{Spring 2026}{MATH-UA 4424: Numerical Analysis}{Instructor of Record}{New York Univeristy, New York NY}{}
+{
+}
+}
+\vspace{3pt}
+
+\item{\cventry{Fall 2025}{MATH-UA 352: Numerical Analysis}{Instructor of Record}{New York Univeristy, New York NY}{}
+{
+}
+}
+\vspace{3pt}
+
+\item{\cventry{Fall 2024}{MATH 4864: Computational Modeling and Data Analytics Capstone}{Graduate Teaching Assistant}{Virginia Tech, Blacksburg VA}{}
+{
+}
+}
+\vspace{3pt}
+
+\item{\cventry{Fall 2023}{MATH 2534: Intro to Discrete Math}{Graduate Instructor of Record}{Virginia Tech, Blacksburg VA}{}
+{
+}
+}
+\vspace{3pt}
+
+\item{\cventry{Fall 2022}{CMDA 1634: Discovering Computational Modeling and Data Analytics}{Graduate Instructor of Record}{Virginia Tech, Blacksburg VA}{}
+{
+}}
+\vspace{3pt}
+
+\item{\cventry{Fall 2021}{MATH 1225: Calculus of a Single Variable}{Graduate Instructor of Record}{Virginia Tech, Blacksburg VA}{}
+{
+}
+}
+
+\vspace{3pt}
+
+\item{\cventry{Fall 2019, 2020}{CMDA 1984: First-year Experience}{Graduate Teaching Assistant}{Virginia Tech, Blacksburg VA}{}
+{}
+}
+
+\vspace{3pt}
+
+\item{\cventry{Fall 2018}{College and Career Readiness Math}{Urban Teachers Resident Teacher}{New Era Academy, Baltimore MD}{}
+{}
+}
+
+
+
+% \newpage
+
+% \item{\cventry{August 2018--January 2019}{College and Career Readiness Math}{Urban Teachers Resident Teacher}{New Era Academy, Baltimore, MD}{}
+% {}}
+
+
+\vspace{3pt}
+\end{itemize}
+
+\section{Conference Organization}
+\vspace{5pt}
+\begin{itemize}
+    \item Minisymposium organizer ``Numerical Linear Algebra Tools for Model Order Reduction'', \textit{27th Conference of the International Linear Algebra Society, ILAS 2026}, Blacksburg, VA, United States, May 2026. Co-organizers: Mattia Mannuci (Karlsruhe Institute of Technology)
+    \vspace{2mm}
+    \item Local organizing committee member, \textit{Young Mathematicians in Model Order Reduction (YMMOR) 2026}
+    \vspace{2mm}
+    \item Minisymposium organizer ``Recent Advances in Model Order Reduction and Data-driven Modeling'', \textit{MATHMOD 2025, 11th Vienna International Conference on Mathematical Modeling}, Vienna, Austria, February 2025. Co-organizers: Hendrik Kleikamp (University of M{\"u}nster), Steffen W. R. Werner (Virginia Tech), Jens Saak (MPI Magdeburg)
+    \vspace{2mm}
+    \item Organizing committee member, \textit{Young Mathematicians in Model Order Reduction (YMMOR)}
+\end{itemize}
+
+% \section{Awards and Honors}
+% \vspace{5pt}
+% \begin{itemize}
+% \item Young Mathematicians in Model Order Reduction (YMMOR) 2024 Travel Grant
+% \vspace{2pt}
+% \item SIAM Conference on Applied Linear Algebra 2024 (SIAMLA24) Travel Award
+% \end{itemize}
+
+\section{Professional Service and Society Membership}
+\vspace{5pt}
+\begin{itemize}
+    \item{\cventry{January 2023 - May 2025}{Member}{Virginia Tech SIAM Student Chapter}{Virginia Tech, Blacksburg VA }{}
+    {}}
+    \vspace{3pt}
+    \item{\cventry{January 2023 - May 2025}{President and Founder}{Virginia Tech Mathematics Graduate Student Organization}{Virginia Tech, Blacksburg VA }{}
+    {}}
+    \vspace{3pt}
+    \item{\cventry{January 2022 - May 2025}{Graduate student representative}{Department of Mathematics Computational Resources Committee}{Virginia Tech, Blacksburg VA}{}
+    {}}
+    \vspace{3pt}
+    \item{\cventry{January 2021 - May 2025}{Student Member}{Society for Industrial and Applied Mathematics (SIAM)}{United States}{}
+    {}}
+    \vspace{3pt}
+    \item{\cventry{January 2021 - January 2022}{Organizer}{Department of Mathematics Applied Numerical Analysis Seminar}{Virginia Tech, Blacksburg VA}{}
+    {}}
+    \vspace{3pt}
+\end{itemize}
+
+%\section{Technical and Personal skills}
+
+%\vspace{6pt}
+
+%\begin{itemize}
+
+%\item \textbf{Programming Languages:} Proficient in: C, C++, Python, Matlab, Arduino, TeX \\ Also basic ability with: Assembly, VBA, VHDL.
+
+%\vspace{6pt}
+
+%\item \textbf{Industry Software Skills:} SolidWorks (Advanced), Matlab (Advanced), Ansys (Intermediate),  LTspice (Intermediate), Most MS Office products including MS project and MS access (Advanced).
+
+%\vspace{6pt}
+
+%\item \textbf{General Business Skills:} Good presentation skills, Works well in a team.
+
+%\vspace{6pt}
+
+%\item \textbf{Other:} Good soldering and spot welding skills, Can write well organised and structured reports.
+
+%\end{itemize}
+
+% \section{Leadership and Volunteer Experience}
+
+% \vspace{5pt}
+
+% \begin{itemize}
+
+% \item{\cventry{}{Zeta Beta Chapter, Virginia Tech}{Alpha Phi Omega, National Co-ed Service Fraternity}{}{}
+% {\vspace{3pt}
+% \begin{itemize}
+% \item{\small{Completed approximately 200 total service hours in the Blacksburg community and New River Valley area}}
+% \item{\small{Maintained a relationship with the "Rainbow Riders Child Care Center" as a community partner and attended the project on a weekly basis as a Service Project Chair}}
+% \end{itemize}}}
+
+% % \vspace{6pt}
+
+% % \item{\cventry{}{Virginia Tech}{Honors Residential Commons at East Ambler Johnston}{}{}
+% % {\vspace{3pt}
+% % \begin{itemize}
+% % \item{\small{Led a first-year honors seminar focused on facilitating reflection around students' first-year experience at Virginia Tech}}
+% % \item{\small{Served as "Director of Academic Enrichment" on hall council and co-facilitated UH 2104 "Community and Discussion Seminar" with a Virginia Tech Associate Professor in the College of Agricultural Leadership and Community Education}}
+% % \item{\small{Planned and peer-led an Alternative Spring Break service trip to Floyd, VA}}
+% % \end{itemize}}}
+
+% % \vspace{6pt}
+
+% % \item{\cventry{}{Virginia Tech}{Student Life Council}{}{}
+% % {\vspace{3pt}
+% % \begin{itemize}
+% % \item{\small{Provided student perspective on issues pertaining to student life as an advisory board member to the Associate Vice President of Student Affairs at Virginia Tech}}
+% % \item{\small{Served on the search committee for the Faculty Principals of the Residential Colleges at Ambler Johnston}}
+% % \end{itemize}}}
+
+% \end{itemize}
+
+%\section{References}
+
+%\vspace{6pt}
+ 
+%\begin{itemize}
+
+%\item{Up to 4 references available on request}
+
+%\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+% \nocite{*}
+% \bibliographystyle{apalike}
+% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
+\textbf{}
