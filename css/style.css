@@ -210,76 +210,109 @@ section p {
   display: none;
 }
 
-/* ─── Publication action pills + BibTeX ─── */
+/* ─── Publication action links ─── */
 .pub-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 7px;
+  gap: 22px;
+  margin-top: 9px;
 }
 
 .pub-btn {
-  display: inline-block;
-  padding: 2px 11px;
-  border: 1px solid var(--color-link);
-  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  appearance: none;
+  -webkit-appearance: none;
   background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
   color: var(--color-link);
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 0.74rem;
-  line-height: 1.55;
-  letter-spacing: 0.02em;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .pub-btn:hover {
-  background: var(--color-link);
-  color: #fff;
-  text-decoration: none;
+  color: #0f4c81;
+  text-decoration: underline;
 }
 
-.pub-btn[aria-expanded="true"] {
-  background: var(--color-link);
-  color: #fff;
+.pub-btn::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
+.pub-btn.bibtex-toggle::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27M7%207h4v5l-2%204H6l2-4H7V7zm8%200h4v5l-2%204h-3l2-4h-1V7z%27%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27M7%207h4v5l-2%204H6l2-4H7V7zm8%200h4v5l-2%204h-3l2-4h-1V7z%27%2F%3E%3C%2Fsvg%3E");
+}
+
+.pub-btn[href*="arxiv.org"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M14%203H7a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h10a2%202%200%200%200%202-2V8z%27%2F%3E%3Cpath%20d%3D%27M14%203v5h5%27%2F%3E%3Cline%20x1%3D%279%27%20y1%3D%2713%27%20x2%3D%2715%27%20y2%3D%2713%27%2F%3E%3Cline%20x1%3D%279%27%20y1%3D%2717%27%20x2%3D%2713%27%20y2%3D%2717%27%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpath%20d%3D%27M14%203H7a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h10a2%202%200%200%200%202-2V8z%27%2F%3E%3Cpath%20d%3D%27M14%203v5h5%27%2F%3E%3Cline%20x1%3D%279%27%20y1%3D%2713%27%20x2%3D%2715%27%20y2%3D%2713%27%2F%3E%3Cline%20x1%3D%279%27%20y1%3D%2717%27%20x2%3D%2713%27%20y2%3D%2717%27%2F%3E%3C%2Fsvg%3E");
+}
+
+.pub-btn[href*="zenodo"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpolyline%20points%3D%2716%2018%2022%2012%2016%206%27%2F%3E%3Cpolyline%20points%3D%278%206%202%2012%208%2018%27%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27black%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cpolyline%20points%3D%2716%2018%2022%2012%2016%206%27%2F%3E%3Cpolyline%20points%3D%278%206%202%2012%208%2018%27%2F%3E%3C%2Fsvg%3E");
+}
+
+/* Expanded BibTeX source */
 .bibtex-block {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .bibtex-block pre {
   background: var(--color-bg-alt);
-  border: 1px solid #e2e3e3;
+  border: 1px solid #e6e7e7;
+  border-left: 3px solid var(--color-link);
   border-radius: 5px;
   padding: 12px 14px;
   overflow-x: auto;
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.8rem;
   line-height: 1.5;
-  color: #222;
+  color: #333;
   white-space: pre;
 }
 
 .bibtex-copy {
-  margin-top: 6px;
-  padding: 2px 11px;
-  border: 1px solid #bbb;
-  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
   background: none;
-  color: #666;
+  border: none;
+  color: var(--color-link);
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .bibtex-copy:hover {
-  color: var(--color-link);
-  border-color: var(--color-link);
+  color: #0f4c81;
+  text-decoration: underline;
 }
 
 /* ─── Projects placeholder ─── */
